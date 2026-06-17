@@ -1,0 +1,21 @@
+{
+  "name": "ROCk 양궁기록장",
+  "short_name": "양궁기록장",
+  "description": "학교 양궁부 학생 훈련 기록 관리 앱",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e9eef4",
+  "theme_color": "#0b1f3a",
+  "icons": [
+    {
+      "src": "icons/archery-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "sports", "productivity"],
+  "lang": "ko-KR"
+}

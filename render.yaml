@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: rock-archery-record
+    env: node
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    pullRequestPreviewsEnabled: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_PIN
+        value: "1004"
